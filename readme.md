@@ -8,12 +8,12 @@ Dieses Befehl erzeugt ersmal das Projekt in den release Ordner.
 
 Dieser sollte jetzt zunächst im übergeordneten Ordner zwischengespeichert werden.
 
-Anschließend wechseln wir mit demBefehl :
+Anschließend wechseln wir mit dem Befehl den Branch :
 
 `git switch gh-pages`
 
-Alles was hier branch committed und gepusht/sync wird landet auf github und wird automatisch compiliert und übernommen.
+Der Inhalt von release/wwwroot wird jetzt in den main ordner vom aktuellen branch kopiert und auf githun gepusht.
+
+Alles was hier im branch committed und gepusht/sync wird landet auf github und wird automatisch compiliert und übernommen.
 
 Hierfür wurde bereits eine Repository angelegt, s. auf github.
-
-At the command prompt, type `nano`.
